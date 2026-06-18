@@ -6,6 +6,28 @@ Guide visuel clignotant + injection de texte depuis le terminal vers n'importe q
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20X11-orange.svg)
 
+## 💡 Pourquoi ce script ?
+
+Oui, **ce script est très utile** ! C'est un outil pratique pour injecter du texte depuis le terminal vers n'importe quel champ de saisie de ton interface graphique. Voici en quoi il peut être utile :
+
+### 🎯 Cas d'usage principaux :
+
+1. **Productivité améliorée** : Tu peux générer/préparer du texte en ligne de commande et l'envoyer directement dans des formulaires, champs de recherche, etc. sans copier-coller manuel.
+
+2. **Automatisation de saisie** : Idéal pour les workflows où tu dois remplir des champs répétitifs (formulaires web, bases de données, etc.).
+
+3. **Guide visuel précis** : La barre verte clignotante te permet de **viser exactement** où tu veux injecter le texte, même si plusieurs champs sont visibles à l'écran.
+
+4. **Raccourcis custom** : Tu peux scripter la génération de texte (dates, templates, données) dans ton terminal et les injecter directement dans n'importe quelle application.
+
+5. **Accessibilité** : Utile pour les personnes qui préfèrent ou ont besoin d'utiliser le terminal plutôt que de naviguer à la souris.
+
+### ⚠️ Limitations :
+
+- ⚙️ Nécessite **X11** (pas de Wayland natif)
+- 🔒 Requiert `xdotool` et un environnement Linux
+- ⏱️ Délai de 1,5s fixe avant l'injection
+
 ## ✨ Fonctionnalités
 
 - **Curseur guide** : Petite barre verticale clignotante et déplaçable à la souris
