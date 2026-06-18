@@ -77,10 +77,7 @@ INITIAL_X, INITIAL_Y = 100, 100  # Position initiale
 
 ## 🖥️ Démo
 
-<video width="100%" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture vidéo HTML5.
-</video>
+[![Regarder la démo sur YouTube](https://img.shields.io/badge/YouTube-Regarder%20la%20démo-red?style=flat-square&logo=youtube)](https://youtu.be/wFCT-J5g2ps)
 
 Exemple d'utilisation :
 
@@ -102,7 +99,6 @@ $ python3 type_here.py
 type_here.py    # Script principal (autonome)
 README.md       # Ce fichier
 LICENSE         # Licence MIT
-demo.mp4        # Vidéo de démonstration
 ```
 
 ## 🛠️ Dépendances
