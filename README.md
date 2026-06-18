@@ -77,6 +77,13 @@ INITIAL_X, INITIAL_Y = 100, 100  # Position initiale
 
 ## 🖥️ Démo
 
+<video width="100%" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture vidéo HTML5.
+</video>
+
+Exemple d'utilisation :
+
 ```
 $ python3 type_here.py
 
@@ -95,6 +102,7 @@ $ python3 type_here.py
 type_here.py    # Script principal (autonome)
 README.md       # Ce fichier
 LICENSE         # Licence MIT
+demo.mp4        # Vidéo de démonstration
 ```
 
 ## 🛠️ Dépendances
@@ -105,4 +113,4 @@ LICENSE         # Licence MIT
 
 ## 📝 Licence
 
-[MIT](LICENSE) — Libre d'utilisation, de modification et de distribution.
+[MIT](LICENSE) — Libre d'utilisation, de modification et et distribution.
